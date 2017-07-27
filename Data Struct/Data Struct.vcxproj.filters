@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\AVLTree">
+      <UniqueIdentifier>{2f7438cd-890e-48f4-acb9-ddbb5c2acec5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Heap">
+      <UniqueIdentifier>{e89a4c8f-5484-4778-9d51-dd36b0bff638}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Huffman">
+      <UniqueIdentifier>{db0c9134-6d4b-460e-8c81-a101d90e445f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Huffman">
+      <UniqueIdentifier>{bf055e32-10a5-4d4b-b26e-a812247e4b7a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AVLTree.h">
+      <Filter>Header Files\AVLTree</Filter>
+    </ClInclude>
+    <ClInclude Include="MaxHeap.cpp">
+      <Filter>Resource Files\Heap</Filter>
+    </ClInclude>
+    <ClInclude Include="Huffman.h">
+      <Filter>Header Files\Huffman</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHeap.h">
+      <Filter>Header Files\Huffman</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AVLTree.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHeap.cpp">
+      <Filter>Resource Files\Heap</Filter>
+    </ClCompile>
+    <ClCompile Include="HuffmanNode.h">
+      <Filter>Header Files\Huffman</Filter>
+    </ClCompile>
+    <ClCompile Include="HuffmanTest.cpp">
+      <Filter>Resource Files\Huffman</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
